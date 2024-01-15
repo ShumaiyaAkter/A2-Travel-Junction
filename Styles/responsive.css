@@ -1,4 +1,7 @@
 @media screen and (max-width:600px) {
+    .header{
+        padding: 20px;
+    }
 .nav-container
 {
    flex-direction: column;
@@ -35,11 +38,22 @@
     padding: 30px 20px 100px 20px;
 }
 */
+.about-tours-container{
+    flex-direction: column;
+}
+.about-content{
+    width: 100%;
+}
+.about-img{
+    width: 100%;
+}
 
 }
 
 @media screen and(min-width:900px){
-
+    .header{
+        padding: 100px 30px;
+    }
 
     
 }
